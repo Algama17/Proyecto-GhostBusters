@@ -2,17 +2,19 @@ package dev.ghostbusters;
 
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
 
-/**
- * Unit test for simple App.
- */
+
 class AppTest {
-    /**
-     * Rigorous Test.
-     */
+    
     @Test
-    void testApp() {
-        assertEquals(1, 1);
+    void GhostTest() {
+        int id = 1;
+        String name = "Espíritu del Pescador de Lastres";
+        String classType = "Clase IV";
+        String dangerLevel = "Bajo";
+        String specialAbility = "Aparecer durante tormentas en la costa";
+
+        
+        
     }
 }
